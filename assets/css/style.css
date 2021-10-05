@@ -1,0 +1,22 @@
+* {box-sizing: border-box; padding: 0; margin: 0;}
+
+#devfinder {
+    height: 100vh;
+    background: #141C2F;
+    padding: 3vmax;
+    box-sizing: border-box;
+}
+
+.devfinder--titletheme {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titletheme--title {
+    color: #fff;
+}
+.titletheme--buttontheme p{
+    color: #fff;
+}
