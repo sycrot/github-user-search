@@ -1,7 +1,6 @@
-* {box-sizing: border-box; padding: 0; margin: 0;}
+* {box-sizing: border-box; padding: 0; margin: 0; font-family: 'Roboto Mono', monospace;}
 
 #devfinder {
-    height: 100vh;
     background: #141C2F;
     padding: 3vmax;
     box-sizing: border-box;
@@ -9,14 +8,136 @@
 
 .devfinder--titletheme {
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .titletheme--title {
     color: #fff;
+    font-size: 24px;
 }
 .titletheme--buttontheme p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.devfinder--search {
+    width: 100%;
+    height: 50px;
+    background: #1F2A48;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vmax;
+}
+.devfinder--search i {
+    color: #0E6AD5;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.search--input {
+    width: 100%;
+    padding: 0 10px;
+    background: none;
+    border: none;
+    color: #fff;
+}
+.search--input::placeholder {
+    color: #ffffffd5;
+}
+.search--button {
+    width: 130px;
+    height: 38px;
+    border-radius: 13px;
+    border: none;
+    background: #0078FD;
+    color: #fff;
+}
+
+.devfinder--datauser {
+    background: #1F2A48;
+    width: 100%;
+    border-radius: 13px;
+    padding: 3vmax;
+    margin-top: 3vmax;
+}
+.datauser--peopleinformation {
+    display: flex;
+    align-items: center;
+}
+.peopleinformation--image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.peopleinformation--identity .identity--name{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.identity--username {
+    color: #0E6AD5;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.identity--joineddate {
+    color: #ffffffd5;
+    font-size: 14px;
+}
+
+.datauser--githubinformation {
+    margin-top: 18px;
+}
+.githubinformation--bio .bio--pbio {
+    color:#ffffffd5;
+    font-size: 13px;
+}
+
+.githubinformation--numbers {
+    margin-top: 16px;
+    width: 100%;
+    height: 100px;
+    background: #141C2F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vmax;
+    border-radius: 13px;
+}
+
+.numbers--item {
+    text-align: center;
+}
+.item--title {
+    color: #ffffffd5;
+    font-size: 13px;
+}
+.item--number {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.githubinformation--othersinfos {
+    margin-top: 16px;
+}
+.othersinfos--list {
+    text-align: left;
+}
+.othersinfos--listitem {
+    list-style: none;
+    color: #fff;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.othersinfos--listitem i {
+    font-size: 20px;
+}
+.othersinfos--listitem a {
+    text-decoration: none;
     color: #fff;
 }
