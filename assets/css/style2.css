@@ -95,6 +95,12 @@ body {
     height: 90px;
     border-radius: 50%;
     margin-right: 14px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.peopleinformation--image img  {
+    width: 110px;
+    height: 110px;
 }
 
 .peopleinformation--identity .identity--name{
@@ -179,12 +185,11 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #141C2F;
+        background: #ececec;
     }
     #devfinder {
-        padding: 0 20vmax;
+        padding: 0 15vmax;
     }
-
     .titletheme--buttontheme .buttontheme-btn{
         margin-left: -7vmax;
     }
@@ -194,7 +199,7 @@ body {
 
     .devfinder--datauser {
         display: grid;
-        grid-template-columns: 22% 74%;
+        grid-template-columns: 135px 74%;
     }
     .datauser--peopleinformation {
         display: flex;
@@ -203,12 +208,17 @@ body {
     }
     .peopleinformation--identity {
         display: grid;
+        width: 80%;
         grid-template-rows: repeat(2, 30px);
         grid-template-columns: repeat(2, 1fr);
     }
     .peopleinformation--image {
         width: 120px;
         height: 120px;
+    }
+    .peopleinformation--image img  {
+        width: 130px;
+        height: 130px;
     }
     .identity--name {
         grid-column: 1;
@@ -234,17 +244,19 @@ body {
         grid-column: 2;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-top: -3vmax;
+        align-items: flex-start;
+        margin-top: -50px;
     }
     .githubinformation--numbers {
         margin-top: 1vmax;
     }
 
     .githubinformation--othersinfos {
+        width: 100%;
         margin-top: 1vmax;
     }
     .othersinfos--list {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
