@@ -1,7 +1,11 @@
 * {box-sizing: border-box; padding: 0; margin: 0; font-family: 'Roboto Mono', monospace;}
 
+body {
+    background: #ececec;
+}
+
 #devfinder {
-    background: #141C2F;
+    background: #ececec;
     padding: 3vmax;
     box-sizing: border-box;
 }
@@ -14,14 +18,14 @@
     align-items: center;
 }
 .titletheme--title {
-    color: #fff;
+    color: #555555;
     font-size: 24px;
 }
 .titletheme--buttontheme .buttontheme-btn{
     position: relative;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #555555;
     font-size: 14px;
     cursor: pointer;
     margin-left: -10vmax;
@@ -38,7 +42,7 @@
 .devfinder--search {
     width: 100%;
     height: 50px;
-    background: #1F2A48;
+    background: #c1d1d3;
     border-radius: 13px;
     display: flex;
     justify-content: space-between;
@@ -46,7 +50,7 @@
     padding: 0 1vmax;
 }
 .devfinder--search i {
-    color: #0E6AD5;
+    color: #7796b9;
     font-size: 20px;
     margin-left: 10px;
 }
@@ -55,28 +59,28 @@
     padding: 0 10px;
     background: none;
     border: none;
-    color: #fff;
+    color: #555555;
     outline: none;
 }
 .search--input::placeholder {
-    color: #ffffffd5;
+    color: #55555565;
 }
 .search--button {
     width: 130px;
     height: 38px;
     border-radius: 13px;
     border: none;
-    background: #0078FD;
+    background: #7796b9;
     color: #fff;
     cursor: pointer;
     transition: background 0.1s ease-in-out;
 }
 .search--button:hover {
-    background: #004ba1;
+    background: #235e75;
 }
 
 .devfinder--datauser {
-    background: #1F2A48;
+    background: #c1d1d3;
     width: 100%;
     border-radius: 13px;
     padding: 3vmax;
@@ -94,7 +98,7 @@
 }
 
 .peopleinformation--identity .identity--name{
-    color: #fff;
+    color: #555555;
     font-size: 18px;
     margin-bottom: 5px;
 }
@@ -104,7 +108,7 @@
     margin-bottom: 5px;
 }
 .identity--joineddate {
-    color: #ffffffd5;
+    color: #55555565;
     font-size: 14px;
 }
 
@@ -112,7 +116,7 @@
     margin-top: 18px;
 }
 .githubinformation--bio .bio--pbio {
-    color:#ffffffd5;
+    color:#555555;
     font-size: 13px;
 }
 
@@ -120,7 +124,7 @@
     margin-top: 4vmax;
     width: 100%;
     height: 100px;
-    background: #141C2F;
+    background: #ececec;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,11 +136,11 @@
     text-align: center;
 }
 .item--title {
-    color: #ffffffd5;
+    color: #55555565;
     font-size: 13px;
 }
 .item--number {
-    color: #fff;
+    color: #555555;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -149,25 +153,25 @@
 }
 .othersinfos--listitem {
     list-style: none;
-    color: #fff;
+    color: #555555;
     margin: 10px 0;
     font-size: 15px;
     cursor: pointer;
     transition: color 0.1s ease-in-out;
 }
 .othersinfos--listitem:hover {
-    color: #ffffff85;
+    color: #55555565;
 }
 .othersinfos--listitem i {
     font-size: 20px;
 }
 .othersinfos--listitem a {
     text-decoration: none;
-    color: #fff;
+    color: #555555;
     transition: color 0.1s ease-in-out;
 }
 .othersinfos--listitem a:hover {
-    color: #ffffff85;
+    color: #55555565;
 }
 
 @media screen and (min-width: 1024px) {
