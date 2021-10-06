@@ -85,6 +85,33 @@ body {
     border-radius: 13px;
     padding: 3vmax;
     margin-top: 3vmax;
+    display: none;
+}
+.datauser--init {
+    background: #c1d1d3;
+    border-radius: 13px;
+    margin-top: 3vmax;
+    padding: 2vmax;
+    display: none;
+}
+.datauser--init .init-text {
+    color: #55555565;
+    font-size: 22px;
+}
+.datauser--notfound {
+    background: #723226;
+    border-radius: 13px;
+    margin-top: 3vmax;
+    padding: 2vmax;
+    display: none;
+}
+.datauser--notfound .notfound-text {
+    color: #f5f6f8;
+    font-size: 22px;
+}
+
+.datauser--active {
+    display: block;
 }
 .datauser--peopleinformation {
     display: flex;

@@ -1,5 +1,8 @@
 * {box-sizing: border-box; padding: 0; margin: 0; font-family: 'Roboto Mono', monospace;}
 
+body {
+    background: #141C2F;
+}
 #devfinder {
     background: #141C2F;
     padding: 3vmax;
@@ -52,11 +55,16 @@
 }
 .search--input {
     width: 100%;
-    padding: 0 10px;
+    padding: 10px;
     background: none;
     border: none;
     color: #fff;
     outline: none;
+    margin: 0 10px;
+}
+.search--inputnot {
+    border: 1px solid red;
+    border-radius: 13px;
 }
 .search--input::placeholder {
     color: #ffffffd5;
@@ -81,6 +89,36 @@
     border-radius: 13px;
     padding: 3vmax;
     margin-top: 3vmax;
+    display: none;
+    opacity: 0;
+}
+.datauser--init {
+    background: #1F2A48;
+    border-radius: 13px;
+    margin-top: 3vmax;
+    padding: 2vmax;
+    display: none;
+}
+.datauser--init .init-text {
+    color: #141C2F;
+    font-size: 22px;
+}
+
+.datauser--notfound {
+    background: #723226;
+    border-radius: 13px;
+    margin-top: 3vmax;
+    padding: 2vmax;
+    display: none;
+}
+.datauser--notfound .notfound-text {
+    color: #f5f6f8;
+    font-size: 22px;
+}
+
+.datauser--active {
+    display: block;
+    opacity: 1;
 }
 .datauser--peopleinformation {
     display: flex;
