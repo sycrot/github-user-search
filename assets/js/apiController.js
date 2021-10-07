@@ -1,4 +1,5 @@
 const input = document.querySelector('.search--input')
+const searchButton = document.querySelector('.search--button')
 
 const datauserInit = document.querySelector('.datauser--init')
 const datauserNotfound = document.querySelector('.datauser--notfound')
@@ -114,6 +115,14 @@ function inputEntry() {
             getData(input.value)
         }
     })
+
+    searchButton.addEventListener('click', () => {
+        if (input.value === '') {
+            input.setAttribute('placeholder', 'Digite um usuário do GitHub')
+        }
+        getData(input.value)
+    })
+
 }
 
 function dateFormat(date) {
