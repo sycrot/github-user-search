@@ -113,6 +113,9 @@ body {
 .datauser--active {
     display: block;
 }
+.devfinder--datauser-active {
+    display: block;
+}
 .datauser--peopleinformation {
     display: flex;
     align-items: center;
@@ -225,8 +228,11 @@ body {
     }
 
     .devfinder--datauser {
-        display: grid;
+        display: none;
         grid-template-columns: 135px 74%;
+    }
+    .devfinder--datauser-active {
+        display: grid;
     }
     .datauser--peopleinformation {
         display: flex;

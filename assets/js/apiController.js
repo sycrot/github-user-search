@@ -34,13 +34,13 @@ function getData(user) {
         if (jsonData.message === 'Not Found') {
             input.classList.add('search--inputnot')
             datauserInit.classList.remove('datauser--active')
-            devfinderDatauser.classList.remove('datauser--active')
+            devfinderDatauser.classList.remove('devfinder--datauser-active')
             datauserNotfound.classList.add('datauser--active')
         } else {
             input.classList.remove('search--inputnot')
             datauserInit.classList.remove('datauser--active')
             datauserNotfound.classList.remove('datauser--active')
-            devfinderDatauser.classList.add('datauser--active')
+            devfinderDatauser.classList.add('devfinder--datauser-active')
             let data = {}
             data = {
                 avatar_url : jsonData.avatar_url,
